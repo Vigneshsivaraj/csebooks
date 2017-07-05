@@ -1,0 +1,94 @@
+﻿  #loader {
+  position:absolute;
+   z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: black url("images/giphy.gif") fixed center no-repeat;
+  background-repeat: no-repeat;
+   
+  
+}
+
+
+  .animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+
+ 
+   
+#myDiv
+{
+    
+           background:url(images/an.jpg) fixed center no-repeat; 
+           
+           height: 100%; 
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+            
+        }
+
+
+
+.navbar {
+    opacity:0.9;
+}
+
+.brand {
+    font-family:'Bradley Hand ITC',Arial;
+    font-size:x-large;
+}
+
+   footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 5px;
+    opacity:0.8;
+
+   
+}
+    footer h2 {
+        font-family:'Microsoft PhagsPa';
+
+    }
+    footer h3 {
+        font-family:'SketchFlow Print';
+    }
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+
+
+.quotes {
+             
+        color:white;
+        }
+        .col-sm-4 {
+            margin-top:10px;
+        }

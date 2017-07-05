@@ -1,0 +1,47 @@
+﻿ 
+.brand a{
+        padding-left:10px;
+        }
+
+
+#semesterheading {
+    font-family:'Microsoft PhagsPa',Arial;
+    color:Window;
+}
+        .sidenavv {
+        margin-top:13px;
+        padding:9px;
+        background-color:#eeeaea;
+        height:570px;
+     
+       
+        }
+
+            .sidenavv a {
+            margin-top:29px;
+            padding:7px;
+             color:rgba(193, 19, 30, 0.75);
+             text-transform:uppercase;
+          border-bottom:2px solid;
+          border-color:#e19b9b;
+            }
+
+    .dropdown-menu {
+            background-color: #808080;
+        }
+            .dropdown-menu li a:hover {
+                background-color: #808080;
+            color:rgba(193, 19, 30, 0.75);
+            }
+
+
+               
+    
+        .ABOUT {
+            margin:0 8px;
+         
+            color:white;
+            opacity:1.4;
+            border-radius:3PX;
+         }
+          

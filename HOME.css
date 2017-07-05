@@ -1,0 +1,153 @@
+﻿   .jumbotron {
+        opacity:0.8;
+        color:#000;
+        font-weight:600;
+        
+        }
+          #homeabout {
+        word-spacing:3px;
+        padding-bottom:15px;
+       
+        }
+
+#contact, #homeabout{
+    font-family: 'SketchFlow Print';
+    color:black;
+    font-size: 18px;
+    background-color:#d4d2d2;
+    opacity:0.9;
+}
+
+#contact {
+    font-size: 15px;
+
+
+}
+      
+        .dropdown-menu {
+            background-color: #808080;
+        }
+            .dropdown-menu li a:hover {
+                background-color: #808080;
+            color:rgba(193, 19, 30, 0.75);
+            }
+              .carousel-inner img {
+      width: 100%; 
+      margin: 0px;
+  }
+        
+
+ 
+/*  @media screen and (min-width: 480px)  //this line is for visibility os the gif image in size of the window
+    {    
+        #anim 
+        {
+    width: 110px;
+    height: 90px;
+    background:url("images/anim.gif") no-repeat center;
+   
+    position: relative;
+    -webkit-animation: mymove 28s infinite; //Safari 4.0 - 8.0 
+    animation: mymove 28 infinite;
+}
+
+
+@-webkit-keyframes mymove
+ {
+    from {left: 0px;}
+    to {left: 1075px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 1076px;}
+}}
+       */ 
+   
+
+ .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height:50px;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight:bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius:0 50% 50% 0;
+  background-color:none;
+}
+
+
+.next {
+  right: 0;
+  border-radius:50% 0 0 50%;
+   background-color:none;
+}
+
+
+.prev:hover, .next:hover {
+  background-color:#4b4747;
+}
+    .container1 {
+    position:relative;
+    margin-left:10px;
+    
+    }
+
+    .social li {
+    display:inline;
+    
+    }
+
+    .fa {
+        padding: 10px;
+        padding-right: 15px;
+        font-size: 25px;
+        width: 40px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+        opacity: 0.7;
+       
+        
+    }
+
+ 
+
+.fa:hover,active {
+    opacity: 1;
+    text-decoration: none;
+    color:white;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+        animation: mymove 5s infinite;
+    
+    }
+   /* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {margin-right: 4px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {margin-right: 4px;}
+}
+.fa-facebook {
+     padding:10px;
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+

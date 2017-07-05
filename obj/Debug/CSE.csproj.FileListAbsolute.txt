@@ -1,0 +1,5 @@
+F:\CSE_Books\CSE\CSE\bin\CSE.dll
+F:\CSE_Books\CSE\CSE\bin\CSE.pdb
+F:\CSE_Books\CSE\CSE\obj\Debug\CSE.csprojResolveAssemblyReference.cache
+F:\CSE_Books\CSE\CSE\obj\Debug\CSE.dll
+F:\CSE_Books\CSE\CSE\obj\Debug\CSE.pdb
